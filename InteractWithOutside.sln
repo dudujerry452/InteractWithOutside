@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientPlugin", "ClientPlugin\ClientPlugin.csproj", "{413DFE2A-5463-4390-92F5-FAB490ACE811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorchPlugin", "TorchPlugin\TorchPlugin.csproj", "{8F2CDC5A-B733-423B-A260-CBE0835212F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DedicatedPlugin", "DedicatedPlugin\DedicatedPlugin.csproj", "{5C65B4EC-FC02-4DF1-A3DC-97779092F206}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{EF266C2C-B615-4F7D-A218-71A631144A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75919FCB-E258-4690-ABD5-44597B3D9D65}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Edit-and-run-before-opening-solution.bat = Edit-and-run-before-opening-solution.bat
+		README.md = README.md
+		ReplaceGuidsAndRename.py = ReplaceGuidsAndRename.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413DFE2A-5463-4390-92F5-FAB490ACE811}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2CDC5A-B733-423B-A260-CBE0835212F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C65B4EC-FC02-4DF1-A3DC-97779092F206}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{413dfe2a-5463-4390-92f5-fab490ace811}*SharedItemsImports = 4
+		Shared\Shared.projitems*{5c65b4ec-fc02-4df1-a3dc-97779092f206}*SharedItemsImports = 4
+		Shared\Shared.projitems*{8f2cdc5a-b733-423b-a260-cbe0835212f0}*SharedItemsImports = 4
+		Shared\Shared.projitems*{ef266c2c-b615-4f7d-a218-71a631144a59}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
