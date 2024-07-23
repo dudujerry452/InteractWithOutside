@@ -6,7 +6,7 @@ br.s L1
 L0:
 ldc.i4 25001
 L1:
-call static System.Void Havok.HkVDB::set_Port(System.Int32 value)
+call static System.Void Havok.HkVDB::setm_port(System.Int32 value)
 ldc.i4 -668493307
 ldc.i4.0
 call static System.Void Havok.HkBaseSystem::EnableAssert(System.Int32 assertId, System.Boolean enable)
@@ -127,14 +127,14 @@ brfalse.s L7
 ldloca.s 0 (System.Nullable`1[System.Int32])
 call System.Int32 System.Nullable`1<System.Int32>::get_Value()
 newobj System.Void Havok.HkJobThreadPool::.ctor(System.Int32 threadCount)
-stsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::m_threadPool
+stsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::mm_threadPool
 br.s L8
 L7:
 newobj System.Void Havok.HkJobThreadPool::.ctor()
-stsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::m_threadPool
+stsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::mm_threadPool
 L8:
-ldsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::m_threadPool
-callvirt System.Int32 Havok.HkJobThreadPool::get_ThreadCount()
+ldsfld Havok.HkJobThreadPool Sandbox.Engine.Physics.MyPhysics::mm_threadPool
+callvirt System.Int32 Havok.HkJobThreadPool::getm_threadCount()
 ldc.i4.1
 add
 newobj System.Void Havok.HkJobQueue::.ctor(System.Int32 threadCount)

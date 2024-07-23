@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 		Edit-and-run-before-opening-solution.bat = Edit-and-run-before-opening-solution.bat
 		README.md = README.md
+		referrence.txt = referrence.txt
 		ReplaceGuidsAndRename.py = ReplaceGuidsAndRename.py
 	EndProjectSection
 EndProject
@@ -46,6 +47,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06AA35DD-3183-4157-86FF-5F222C175B9A}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Shared\Shared.projitems*{413dfe2a-5463-4390-92f5-fab490ace811}*SharedItemsImports = 4
